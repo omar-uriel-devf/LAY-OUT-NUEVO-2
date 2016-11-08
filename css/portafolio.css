@@ -1,0 +1,74 @@
+*{
+  /*border: 1px dashed black;*/
+}
+#contenedor_de_nombre{
+  display: inline-block;
+  /*margin-left: 100px;*/
+  float: right;
+  border-bottom: right;
+  text-align: right;
+}
+#logo{
+width: 200px;
+display: inline-block;
+float: left;
+}
+h1{
+  font-weight: 100;
+  font-size: 25px;
+  margin: 0px;
+}
+
+h2{
+  font-weight: 50;
+  font-size: 15px;
+  margin: 0px;
+
+}
+.cabecera{
+  border-bottom: 3px solid #AAA;
+  overflow:auto;
+}
+#container{
+  max-width: 1000px;
+  margin: 0px auto;
+}
+#imagen_central{
+  margin: 5px opx;
+  width: 100%;
+  top: 100px;
+}
+.contenedor_imagen{
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  /*position: relative;*/
+  margin: 10px 0px;
+}
+#imagen_div {
+  background-image:
+  url("../img/Gotic girl.jpg");
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: 0px -100px;
+}
+#mascara{
+  background-color: rgba(300,300,300,.4);
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  line-height: 250px;
+}
+h3{
+  color: #999;
+  font-weight: 100;
+  font-size: 25px;
+}
+.project_container{
+  border: 1px solid black;
+  display: inline-block;
+  width: 33.33%;
+  height: 200px;
+}
